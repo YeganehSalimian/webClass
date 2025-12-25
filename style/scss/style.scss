@@ -33,7 +33,18 @@ button{
     font-size: 25px;
 }
 
+h1{
+    font-size: 25px;
+    color: red;
+    &:hover{
+        color: blue;
+    }
+}
 
+// Test style to verify compilation
+body {
+    background-color: #f0f0f0 !important; // Temporary test - remove after testing
+}
 
 .siteHeader{
     .container{

@@ -33,6 +33,18 @@ button {
   font-size: 25px;
 }
 
+h1 {
+  font-size: 25px;
+  color: red;
+}
+h1:hover {
+  color: blue;
+}
+
+body {
+  background-color: #f0f0f0 !important;
+}
+
 .siteHeader .container .link {
   color: rgba(255, 0, 255, 0.8);
   transition: color 0.5s;
