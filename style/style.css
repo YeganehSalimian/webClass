@@ -1,0 +1,45 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: #fff;
+  color: #000;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+  display: inline-block;
+}
+
+button {
+  /* تمامی استایل ها رو از بین میبرد */
+  all: unset;
+}
+
+.paragraph {
+  font-size: 25px;
+}
+
+.siteHeader .container .link {
+  color: rgba(255, 0, 255, 0.8);
+  transition: color 0.5s;
+  font-size: 25px;
+}
+.siteHeader .container .link:hover {
+  color: #c05a5a;
+}
+
+/*# sourceMappingURL=style.css.map */

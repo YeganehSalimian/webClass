@@ -1,0 +1,5 @@
+node_modules
+.idea
+.vscode
+dist/styles/main-styles.css
+dist/styles/main-styles.css.map
